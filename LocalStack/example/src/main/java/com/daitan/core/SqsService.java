@@ -1,5 +1,6 @@
 package com.daitan.core;
 
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.sqs.SqsClient;
 import software.amazon.awssdk.services.sqs.model.*;
@@ -14,6 +15,9 @@ public class SqsService {
     public SqsService(URI endpoint) {
         client = SqsClient.builder()
                 .region(Region.US_EAST_1)
+                .credentialsProvider( () -> AwsBasicCredentials.create(
+                "foobar",
+                "foobar"))
                 .endpointOverride(endpoint)
                 .build();
     }

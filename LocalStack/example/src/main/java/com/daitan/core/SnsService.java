@@ -41,14 +41,16 @@ public class SnsService {
         return publishResponse;
     }
 
-    public SubscribeRequest subscribeToReceiveMessages (String topicArn, String endpoint) {
+    public SubscribeResponse subscribeToReceiveMessages (String topicArn, String endpoint) {
 
-        return SubscribeRequest.builder()
+        SubscribeRequest req = SubscribeRequest.builder()
                 .topicArn(topicArn)
-                .protocol("sqs")
                 .endpoint(endpoint)
+                .protocol("sqs")
                 .returnSubscriptionArn(true)
                 .build();
+
+        return client.subscribe(req);
     }
 
 }
