@@ -1,6 +1,5 @@
 package com.daitan;
 
-import com.daitan.core.SqsService;
 import com.daitan.resources.LocalStackResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;

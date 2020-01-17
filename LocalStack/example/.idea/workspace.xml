@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce0a003-bc5a-4101-b0c2-368342e680b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daitan/model/MessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/ConsumerSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/ConsumerSQS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/resources/LocalStackResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/resources/LocalStackResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/daitan/core/ConsumerSQS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daitan/core/ConsumerSQS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/daitan/core/ProducerSNS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daitan/core/ProducerSNS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/daitan/resources/LocalStackResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daitan/resources/LocalStackResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/example-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-example-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/localstackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/localstackApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
