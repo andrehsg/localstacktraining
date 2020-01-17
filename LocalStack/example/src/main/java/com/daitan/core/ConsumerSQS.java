@@ -20,15 +20,14 @@ public final class ConsumerSQS {
         sqs.createQueue("teste");
 
         log.info("receiving messages...");
-        while(true) {
-            Thread.sleep(1000);
-            List<Message> messages = sqs.receiveMessage(queueUrl);
-            messages.stream().forEach(
-                    item -> {
-                        log.info(item.body());
-                        sqs.deleteMessage(queueUrl, item);
-                    });
+        Thread.sleep(1000);
+        List<Message> messages = sqs.receiveMessage(queueUrl);
+        messages.stream().forEach(
+            item -> {
+                log.info(item.body());
+                sqs.deleteMessage(queueUrl, item);
+            });
 
-        }
+
     }
 }

@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ce0a003-bc5a-4101-b0c2-368342e680b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSNS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSNS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSQS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/SnsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/SnsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/daitan/core/SnsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daitan/core/SnsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/example-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-example-1.0.jar" afterDir="false" />
-    </list>
+    <list default="true" id="8ce0a003-bc5a-4101-b0c2-368342e680b8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
