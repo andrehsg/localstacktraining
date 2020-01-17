@@ -18,16 +18,12 @@ public final class ConsumerSQS {
         SqsService sqs = new SqsService(new URI("http://localhost:4576"));
         String queueUrl = "http://localhost:4576/queue/teste";
         sqs.createQueue("teste");
-
         log.info("receiving messages...");
-        Thread.sleep(1000);
         List<Message> messages = sqs.receiveMessage(queueUrl);
         messages.stream().forEach(
             item -> {
                 log.info(item.body());
                 sqs.deleteMessage(queueUrl, item);
             });
-
-
     }
 }

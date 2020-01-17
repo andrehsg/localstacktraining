@@ -2,6 +2,7 @@ com/daitan/core/ProducerSQS.class
 com/daitan/localstackConfiguration.class
 com/daitan/localstackApplication.class
 com/daitan/core/ConsumerSQS.class
+com/daitan/model/MessageResponse.class
 com/daitan/resources/LocalStackResource.class
 com/daitan/core/SqsService.class
 com/daitan/core/ProducerSNS.class

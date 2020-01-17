@@ -6,3 +6,4 @@
 /home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/localstackConfiguration.java
 /home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/ProducerSNS.java
 /home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/SqsService.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/model/MessageResponse.java

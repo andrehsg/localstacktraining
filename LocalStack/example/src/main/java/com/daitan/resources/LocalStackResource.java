@@ -1,6 +1,7 @@
 package com.daitan.resources;
 
 import com.daitan.core.ConsumerSQS;
+import com.daitan.model.MessageResponse;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -15,14 +16,14 @@ public class LocalStackResource {
 
     @POST
     @Path("/newMessage")
-    public Response.ResponseBuilder notifyNewArrivingMessages () {
+    public Response notifyNewArrivingMessages () {
 
         try {
             ConsumerSQS.consume();
         } catch (Exception e) {
             e.printStackTrace();
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR);
+            return Response.serverError().build();
         }
-        return Response.status(Response.Status.OK).entity("Message received");
+        return Response.ok(new MessageResponse("Messages Received")).build();
     }
 }
