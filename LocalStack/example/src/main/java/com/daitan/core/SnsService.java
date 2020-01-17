@@ -21,11 +21,11 @@ public class SnsService {
                 .build();
     }
 
-    public CreateTopicResponse createTopic () {
+    public CreateTopicResponse createTopic (String myTopic) {
 
         // Create an Amazon SNS topic.
         CreateTopicResponse createTopicResponse = client.createTopic(CreateTopicRequest.builder()
-                .name("myTopic")
+                .name(myTopic)
                 .build());
         return createTopicResponse;
 
@@ -41,12 +41,12 @@ public class SnsService {
         return publishResponse;
     }
 
-    public SubscribeRequest subscribeToReceiveMessages (String topicArn) {
+    public SubscribeRequest subscribeToReceiveMessages (String topicArn, String endpoint) {
 
         return SubscribeRequest.builder()
                 .topicArn(topicArn)
                 .protocol("sqs")
-                .endpoint("http://localhost:4576/queue/teste")
+                .endpoint(endpoint)
                 .returnSubscriptionArn(true)
                 .build();
     }
