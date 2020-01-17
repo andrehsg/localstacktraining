@@ -15,10 +15,9 @@ public class ProducerSQS {
 
         SqsService sqs = new SqsService(new URI("http://localhost:4576"));
         String queueUrl = "http://localhost:4576/queue/teste";
-        sqs.createQueue("teste");
+        System.out.println("ARN: " + sqs.createQueue("teste"));
         sqs.sendMessage(queueUrl, args[0]);
         System.out.println("Message sent");
-
         HttpPost request = new HttpPost("http://localhost:9179/api/newMessage");
 
         try (CloseableHttpResponse response = httpClient.execute(request)) {

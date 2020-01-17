@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ce0a003-bc5a-4101-b0c2-368342e680b8" name="Default Changelist" comment="" />
+    <list default="true" id="8ce0a003-bc5a-4101-b0c2-368342e680b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSNS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSNS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/core/SnsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/core/SnsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daitan/core/SnsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daitan/core/SnsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/example-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/example-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-example-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-example-1.0.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1WTlThGBFhwiYnHmpKX18A582Ce" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -81,26 +99,34 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="692" y="325" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1579183061797" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1579209772904">
+    <state x="2721" y="431" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579262611128">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2721" y="431" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579262611128" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1579271078738">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1579183554045" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579209772904" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1579209772903">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579271078738" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1579271078738">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1579183554045" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579209772903" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1579209772903">
+    <state width="1874" height="287" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579271078738" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1579271078738">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1579183554045" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579209772903" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1579209772904">
+    <state width="1874" height="287" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579271078738" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1579271078738">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1579183554045" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579209772904" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579271078738" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1579185880505">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -125,13 +151,25 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2402" y="187" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579193189374" />
-    <state x="2415" y="519" key="com.intellij.ide.util.TipDialog" timestamp="1579195436608">
+    <state x="2415" y="519" key="com.intellij.ide.util.TipDialog" timestamp="1579271577245">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="519" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579195436608" />
+    <state x="2415" y="519" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579271577245" />
     <state x="2577" y="253" width="672" height="677" key="run.anything.popup" timestamp="1579186568216">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2577" y="253" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1579186568216" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daitan/core/ProducerSQS.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

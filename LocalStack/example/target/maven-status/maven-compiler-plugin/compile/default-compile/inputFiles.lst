@@ -1,8 +1,8 @@
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/resources/LocalStackResource.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/core/ProducerSNS.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/core/ProducerSQS.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/core/SqsService.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/localstackApplication.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/core/SnsService.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/core/ConsumerSQS.java
-/home/ramos/Documents/Ramp up/LocalStack/example/src/main/java/com/daitan/localstackConfiguration.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/resources/LocalStackResource.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/SnsService.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/ConsumerSQS.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/ProducerSQS.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/localstackApplication.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/localstackConfiguration.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/ProducerSNS.java
+/home/aramos/Documents/Alianza/Ramp up/LocalStack/localstacktraining/LocalStack/example/src/main/java/com/daitan/core/SqsService.java

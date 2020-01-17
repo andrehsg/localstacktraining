@@ -1,5 +1,6 @@
 package com.daitan.core;
 
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.sns.SnsClient;
 import software.amazon.awssdk.services.sns.model.*;
@@ -13,6 +14,9 @@ public class SnsService {
     public SnsService(URI endpoint) {
         client = SnsClient.builder()
                 .region(Region.US_EAST_1)
+                .credentialsProvider( () -> AwsBasicCredentials.create(
+                "foobar",
+                "foobar"))
                 .endpointOverride(endpoint)
                 .build();
     }
@@ -37,12 +41,13 @@ public class SnsService {
         return publishResponse;
     }
 
-    public void subscribeToReceiveMessages (String topicArn) {
+    public SubscribeRequest subscribeToReceiveMessages (String topicArn) {
 
-        SubscribeRequest.builder()
+        return SubscribeRequest.builder()
                 .topicArn(topicArn)
                 .protocol("sqs")
                 .endpoint("http://localhost:4576/queue/teste")
+                .returnSubscriptionArn(true)
                 .build();
     }
 
